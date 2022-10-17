@@ -4,6 +4,8 @@ fn test() -> bool {
 
 fn main() {
     println!("Hello, world!");
+
+    test();
 }
 
 #[cfg(test)]
